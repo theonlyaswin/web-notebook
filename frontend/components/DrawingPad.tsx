@@ -92,7 +92,7 @@ const DrawingPad: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4">
       <div className="bg-white p-4 rounded-lg shadow-md w-full max-w-md">
-        <h1 className="text-xl sm:text-2xl font-bold mb-4 text-center">Alzheimer's Handwriting Test</h1>
+        <h1 className="text-xl sm:text-2xl font-bold mb-4 text-center">Alzheimer&apos;s Handwriting Test</h1>
         <canvas
           ref={canvasRef}
           width={canvasSize.width}
